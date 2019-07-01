@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/site/Header';
 import Footer from './components/site/Footer';
 import Sidebar from './components/site/Sidebar';
+import FunctionalComponentDemo from './components/concepts/FunctionalComponentDemo';
 import {
   BrowserRouter as Router,
 }from 'react-router-dom';
@@ -15,6 +16,7 @@ function App(){
       <Header />
       <Router>
         <Sidebar />
+        <FunctionalComponentDemo />
         </Router>
         <Footer /> 
     </div>
